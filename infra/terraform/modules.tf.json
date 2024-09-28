@@ -7,12 +7,12 @@
       "create_function_url": true,
       "description": null,
       "environment_variables": {
-        "IMAGES_BUCKET": "SM-Vinay-Kumar"
+        "IMAGES_BUCKET": "smvinaykumar"
       },
       "event_source_arn": null,
       "event_source_mapping": [],
       "filename": null,
-      "function_name": "hello-kitty-function-SM-Vinay-Kumar",
+      "function_name": "hello-kitty-function-smvinaykumar",
       "handler": "main.lambda_handler",
       "log_format": null,
       "log_group_name": "${module.appcd_86ec452a-770a-59bf-87dd-67ed883e25e5.name}",
@@ -32,7 +32,7 @@
     },
     "appcd_551e1d2b-88ec-5406-87cf-c51521bbe894": {
       "block_public_access": true,
-      "bucket_name": "SM-Vinay-Kumar",
+      "bucket_name": "smvinaykumar",
       "bucket_policy": "",
       "enable_versioning": true,
       "enable_website_configuration": false,
@@ -46,7 +46,7 @@
       "website_index_document": "index.html"
     },
     "appcd_86ec452a-770a-59bf-87dd-67ed883e25e5": {
-      "name": "/aws/lambda/hello-kitty-function-SM-Vinay-Kumar",
+      "name": "/aws/lambda/hello-kitty-function-smvinaykumar",
       "retention_in_days": 7,
       "source": "./modules/aws_cloudwatch_log_group",
       "tags": {
@@ -66,7 +66,7 @@
       "description": null,
       "force_detach_policies": true,
       "inline_policy": [],
-      "name": "hello-kitty-role-SM-Vinay-Kumar",
+      "name": "hello-kitty-role-smvinaykumar",
       "source": "./modules/aws_iam_role",
       "tags": {
         "appstack": "hello-kitty-photos",
